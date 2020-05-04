@@ -25,7 +25,7 @@ import R_shape_estim_COMPLEX
 
 #from scipy.linalg import toeplitz
 
-Ns = 10 ** 3
+Ns = 10 ** 6
 N = 8
 perturbation_par = 10**(-2)
 
