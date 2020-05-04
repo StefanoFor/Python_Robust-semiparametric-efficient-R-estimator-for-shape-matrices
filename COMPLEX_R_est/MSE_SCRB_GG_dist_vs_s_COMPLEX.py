@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Apr 20 17:26:09 2020
-
-@author: Utente
-"""
 
 import math
 import cmath
