@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Apr 20 17:26:09 2020
-
-@author: Utente
-"""
 
 import math
 import cmath
@@ -30,7 +25,7 @@ import R_shape_estim_COMPLEX
 
 #from scipy.linalg import toeplitz
 
-Ns = 10 ** 3
+Ns = 10 ** 6
 N = 8
 perturbation_par = 10**(-2)
 
