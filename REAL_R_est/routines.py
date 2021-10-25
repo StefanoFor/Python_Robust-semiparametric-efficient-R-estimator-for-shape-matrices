@@ -6,7 +6,7 @@ import numpy as np
 def jacobian_constraint_real(N):
     J_phi = np.zeros((int(N*(N+1)/2), 1))
 
-    for jj in range(N-1):
+    for jj in range(N):
         index_con = int(N*jj - jj*(jj-1)/2)
         J_phi[(index_con, 0)] = 1
 
