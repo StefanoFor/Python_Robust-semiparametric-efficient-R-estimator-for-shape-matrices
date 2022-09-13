@@ -4,8 +4,6 @@ This repository contains the Python code that implements the R-estimator of shap
 
 # Author
 1) Stefano Fortunati (stefano.fortunati@centralesupelec.fr)
-2) Alexandre Renaux
-3) Frederic Pascal
 
 # Copyright
 Copyright (c) 2020 CentraleSupélec
