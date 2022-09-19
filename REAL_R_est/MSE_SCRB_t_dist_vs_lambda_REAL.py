@@ -74,7 +74,7 @@ for il in range(Nl):
         # Generation of the t-distributed data
         w = np.random.randn(N, K)
         x = Ls @ w
-        R = np.random.gamma(lambdap/2, 2*scale, size=K)
+        R = 2 * np.random.gamma(lambdap/2, 2*scale, size=K)
         y = (1/R ** (1/2)) * x
         
         # Sample Mean and Sample Covariance Matrix (SCM)
